@@ -46,7 +46,7 @@ function extractAndConvert<T extends object, U extends keyof T>(
 console.log(extractAndConvert({ name: "Max" }, "name"));
 
 class DataStorage<T extends number | boolean | string> {
-  private data: (T)[] = [];
+  private data: T[] = [];
 
   addItem(item: T) {
     this.data.push(item);
