@@ -1,9 +1,9 @@
-import { Draggable } from "../models/drag-drop.js";
-import { Component } from "./base-component.js";
-import { Project } from "../models/project.js";
-import { autobind } from "../decorators/autobind.js";
-import { validate, Validatable } from "../util/validation.js";
-import { projectState, ProjectState } from "../state/project-state.js";
+import { Draggable } from "../models/drag-drop";
+import { Component } from "./base-component";
+import { Project } from "../models/project";
+import { autobind } from "../decorators/autobind";
+import { validate, Validatable } from "../util/validation";
+import { projectState, ProjectState } from "../state/project-state";
 
 type userInput = [string, string, number];
 
